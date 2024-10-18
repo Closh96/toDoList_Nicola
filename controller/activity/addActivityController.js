@@ -2,9 +2,7 @@ import {addActivity} from '../../service/activityService.js'
 
 export default async (req,res) => {
     try {
-        const data = {...req.body, userId: req.userId};
-        data.userId = req.userId
-        const result = await addActivity(data) // promise
+        const result = await addActivity(req.body) // promise
         res.status(201).json(result);
     } catch (error) {
         console.log(error)

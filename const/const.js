@@ -63,7 +63,7 @@ const publicKey = '';
 
 const mailConfig = {
   senderAddress: 'closh1996@gmail.com',
-  smtpPassword: 'thsjyxqkzkrfyxwo',
+  smtpPassword: '*******',
   subject: 'todolist registration',
   host: 'smtp.gmail.com',
   port: 465,
